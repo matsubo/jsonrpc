@@ -72,6 +72,14 @@ Otherwise you must point a PSR-0 autoloader to the `src` directory. Full usage [
 ## Example
 The quickest way to get the library up and running locally is to point your browser to `example/client.php` and everything will load automatically. You can then experiment with the code as you read the documentation.
 
+## Unit test
+If you install phpunit command via composer, type the following command.
+
+```
+% cd tests
+% ../vendor/bin/phpunit -c phpunit.xml
+```
+
 <a name="License"></a>
 ## License
 
